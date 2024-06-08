@@ -1,9 +1,0 @@
-version: '3'
-services:
-  react_svc:
-    container_name: react-cont #--name postgres-cont
-    image: radomkhoem/reactjs:1.1
-    restart: always #--restart
-    ports:
-      - 8082:80 #-p 5432:80
-    
